@@ -1,0 +1,119 @@
+@font-face {
+    font-family: 'iconfont';  /* project id 471968 */
+    src: url('https://at.alicdn.com/t/font_471968_irk11jzcfhjpds4i.eot');
+    src: url('https://at.alicdn.com/t/font_471968_irk11jzcfhjpds4i.eot?#iefix') format('embedded-opentype'),
+    url('https://at.alicdn.com/t/font_471968_irk11jzcfhjpds4i.woff') format('woff'),
+    url('https://at.alicdn.com/t/font_471968_irk11jzcfhjpds4i.ttf') format('truetype'),
+    url('https://at.alicdn.com/t/font_471968_irk11jzcfhjpds4i.svg#iconfont') format('svg');
+}
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:16px;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    outline: none;
+}
+html{
+    font-size: 100px;
+    width: 100%;
+    height: 100%;
+}
+@media screen and (min-width: 375px){
+    html{
+        font-size: 50px;
+    }
+}
+table{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    background-repeat: no-repeat;
+    font-weight: bold;
+    border-collapse: collapse;
+    table-layout:fixed;
+    font-size: .28rem;
+    text-align: center;
+    background-image: url("../img/tianqi.jpg");
+}
+
+td{
+    width:auto;
+    height: 1rem;
+    /*color: #000;*/
+}
+.dushu{
+    width: 210px;
+    height: 60px;
+    font-size: 70px;
+    color: rgba(255, 208, 15, 0.58);
+}
+.img img{
+    width: 30px;
+    height: 30px;
+    margin:0 auto;
+}
+.weather{
+    display: block;
+    width: 60px;
+    height: 60px;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.weather-tianqi{
+    font-size: 32px;
+    font-family: cursive;
+    padding-top: 40px;
+}
+.fengli{
+    font-size: 20px;
+    font-family: cursive;
+}
+.riqi, .city{
+    font-size: 22px;
+    font-family: monospace;
+    /*color: #000;*/
+}
+.add{
+    font-size: 36px;
+    /*color: #000;*/
+}
+.city i{
+    color: #1affc0;
+    font-size: 28px;
+}
+.mask{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 160px;
+    background-image: url("../img/1.jpg");
+    display: none;
+}
+.mask select{
+    font-size: 14px;
+    width: 110px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 20px;
+}
+button{
+    width: 60px;
+    height: 30px;
+    font-size: 18px;
+    position: absolute;
+    top:100px;
+    right: 20px;
+}
